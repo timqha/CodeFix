@@ -1,0 +1,18 @@
+<div class="it-is-good">
+  <!--<div class="col-sm-6 col-xs-12 col-lg-3 col-md-4" ng-repeat="post in posts">-->
+  <div class="col-xs-12" ng-repeat="post in posts">
+    <div class="item">
+      <img ng-src="img/{{post.image}}" alt="{{post.image_title}}">
+      <div class="base-text">
+        <h3>{{post.title }}</h3>
+        <br>
+        {{post.description}}
+      </div>
+      <div class="base-footer">
+        {{post.created_at | date:'dd-LLLL  HH:mm'}}
+        <span class="pull-right">author: {{post.author}}</span>
+
+      </div>
+    </div>
+  </div>
+</div>

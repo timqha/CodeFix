@@ -1,0 +1,23 @@
+{
+  "name": "BLog",
+  "version": "1.0.0",
+  "description": "Mini blog first edition",
+  "main": "server_rest.js",
+  "scripts": {
+    "test": "node_modules/.bin/mocha"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt-nodejs": "0.0.3",
+    "body-parser": "^1.9.3",
+    "express": "^4.10.8",
+    "mongoose": "^4.0",
+    "morgan": "^1.5.3",
+    "bson": "^0.1"
+  },
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "chai-http": "^2.0.1"
+  }
+}

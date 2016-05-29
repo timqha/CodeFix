@@ -1,0 +1,20 @@
+{
+  "name": "Sponge",
+  "directory": "libs/",
+  "license": "MIT",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "~3.3.6",
+    "font-awesome": "~4.5.0",
+    "font-bebas-neue": "~1.0.1",
+    "raleway": "~1.0.1",
+    "angular": "~1.5.5"
+  }
+}

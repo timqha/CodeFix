@@ -1,0 +1,35 @@
+body {
+    padding-top: 70px;
+    background: #eef0ee;
+}
+.item{
+    border-radius: 5px;
+    -webkit-box-shadow: 3px 3px 12px 1px rgba(0,0,0,0.35);
+    -moz-box-shadow: 3px 3px 12px 1px rgba(0,0,0,0.35);
+    box-shadow: 3px 3px 12px 1px rgba(0,0,0,0.35);
+    overflow: hidden;
+    margin-top: 15px;
+    margin-bottom: 15px;
+
+    /*text-indent: 1em; !* To show paragraph starts. *!*/
+    page-break-inside: avoid; /* For Firefox. */
+    -webkit-column-break-inside: avoid; /* For Chrome & friends. */
+    break-inside: avoid; /* For standard browsers like IE. :-) */
+}
+.item img{
+    width: 100%;
+}
+.base-text, .base-footer{
+    padding: 5px;
+}
+.base-text{
+    border-bottom: 1px solid #DADADA;
+}
+.it-is-good{
+    min-height: 1000px;
+    -moz-column-count: 4; /* Для Firefox */
+    -webkit-column-count: 4; /* Для Safari и Chrome */
+    column-count: 4;
+    -webkit-column-span: all; /* Chrome, Safari, Opera */
+    column-span: all;
+}
